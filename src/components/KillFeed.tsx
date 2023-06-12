@@ -37,13 +37,6 @@ const KillFeed: React.FC = () => {
     fetchData()
   }, [])
 
-  /**
-   * Adding data into the dependency array triggers the effect whenever data changes, meaning
-   * The effect will be triggered initially when the component mounts,
-   * and then again every time the data state is updated using the setKillData function.
-   * The useEffect itself modifies the data state, resulting in an infinite loop of re-renders
-   */
-
   return (
     <div>
       {error ? (
