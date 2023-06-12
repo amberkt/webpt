@@ -112,5 +112,8 @@ However, it would be beneficial to handle different types of errors more explici
 
 5. I'd also begin to separate concerns into separate files or components as the application gets bigger, and refactor if-statements to ternaries, only if it helps with readability. Sometimes, it does not.
 
+6. Test coverage. I'd write tests to ensure the appropriate error message is rendered depending on the type of response given back to me by the Web PT API, in addition to testing the "happy path" which is when data from the feed is returned normally & rendered to the page. 
+
+
 
 

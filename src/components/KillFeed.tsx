@@ -11,7 +11,6 @@ const KillFeed: React.FC = () => {
     setFetching(true)
 
     try {
-      // const timestamp = Date.now()
       const response = await axios.get(
         `http://interview.wptdev.com/api/killfeed`
       )
